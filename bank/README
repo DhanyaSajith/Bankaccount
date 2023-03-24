@@ -38,7 +38,7 @@ Controller
 •	UserController
 •	CurrentAccountService
 
-Note:Here Controllers uses the UserService, CurrentAccountService, and TransactionService classes to handle the business logic and the @RestController and @RequestMapping annotations to define the API endpoints. The GET and POST methods handle GET and POST requests use the ResponseEntity class to return responses.
+Note:Here Controllers uses the UserService, CurrentAccountService, and TransactionService classes to handle the business logic and the @RestController and @RequestMapping annotations to define the API endpoints. The GET and POST methods handle GET and POST requests and use the ResponseEntity class to return responses.
 Unit testing has been done for services and controller and testing was successful.
 API Endpoints
 The API endpoints can be accessed at
