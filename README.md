@@ -3,7 +3,9 @@ This is a backend API to be used for opening a new “current account” of alre
 
 ## Requirements
 Java 8 , Maven ,Spring Boot
+
 Getting Started
+
 Clone the repository:
 git clone https://github.com/DhanyaSajith/Bankaccount
 
@@ -57,7 +59,7 @@ The API uses the following data models:
 
 •	CurrentAccountService
 
-Note:Here Controllers uses the UserService, CurrentAccountService, and TransactionService classes to handle the business logic and the @RestController and @RequestMapping annotations to define the API endpoints. The GET and POST methods handle GET and POST requests use the ResponseEntity class to return responses.
+Note:Here Controllers uses the UserService, CurrentAccountService, and TransactionService classes to handle the business logic and the @RestController and @RequestMapping annotations to define the API endpoints. The GET and POST methods handle GET and POST requests respectively and use the ResponseEntity class to return responses.
 Unit testing has been done for services and controller and testing was successful.
 
 ## API Endpoints
