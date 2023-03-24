@@ -1,17 +1,22 @@
 ## BankAccount Backend API
-This is a backend API to be used for opening a new “current account” of already existing customers.  The API is built using Java and Spring Boot.
-Requirements
+This is a backend API to be used for opening a new “current account” of already existing customers.The API is built using Java and Spring Boot.
+
+# Requirements
 Java 8 , Maven ,Spring Boot
 Getting Started
 Clone the repository:
 git clone https://github.com/DhanyaSajith/Bankaccount
 
-Data Models
+#Data Models
 The API uses the following data models:
 User
+
 •	id (long)
+
 •	firstName (string)
+
 •	lastName (string)
+
 •	balance(double)
 
 CurrentAccount
